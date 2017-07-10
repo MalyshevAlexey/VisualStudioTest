@@ -21,5 +21,10 @@ namespace GitHubTraining
         {
             MessageBox.Show("Test button pressed");
         }
+
+        private void buttonAlexey_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Alexey button pressed");
+        }
     }
 }
