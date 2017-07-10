@@ -16,5 +16,10 @@ namespace GitHubTraining
         {
             InitializeComponent();
         }
+
+        private void buttonTest_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Test button pressed");
+        }
     }
 }
