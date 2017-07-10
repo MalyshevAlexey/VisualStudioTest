@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.buttonTest = new System.Windows.Forms.Button();
+            this.buttonGintaras = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonTest
@@ -41,11 +42,22 @@
             this.buttonTest.UseVisualStyleBackColor = true;
             this.buttonTest.Click += new System.EventHandler(this.buttonTest_Click);
             // 
+            // buttonGintaras
+            // 
+            this.buttonGintaras.Location = new System.Drawing.Point(28, 63);
+            this.buttonGintaras.Name = "buttonGintaras";
+            this.buttonGintaras.Size = new System.Drawing.Size(75, 23);
+            this.buttonGintaras.TabIndex = 1;
+            this.buttonGintaras.Text = "Gintaras";
+            this.buttonGintaras.UseVisualStyleBackColor = true;
+            this.buttonGintaras.Click += new System.EventHandler(this.buttonGintaras_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(340, 262);
+            this.Controls.Add(this.buttonGintaras);
             this.Controls.Add(this.buttonTest);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -56,6 +68,7 @@
         #endregion
 
         private System.Windows.Forms.Button buttonTest;
+        private System.Windows.Forms.Button buttonGintaras;
     }
 }
 
