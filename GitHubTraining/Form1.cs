@@ -28,7 +28,7 @@ namespace GitHubTraining
         }
         private void buttonGintaras_Click(object sender, EventArgs e)
         {
-                MessageBox.Show("Gintaras button pressed");
+                MessageBox.Show("Paspausk button pressed");
         }
     }
 }
