@@ -29,11 +29,9 @@
         private void InitializeComponent()
         {
             this.buttonTest = new System.Windows.Forms.Button();
-<<<<<<< HEAD
+
             this.buttonAlexey = new System.Windows.Forms.Button();
-=======
             this.buttonGintaras = new System.Windows.Forms.Button();
->>>>>>> gintaras
             this.SuspendLayout();
             // 
             // buttonTest
