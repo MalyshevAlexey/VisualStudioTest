@@ -60,6 +60,7 @@
             this.Controls.Add(this.buttonAlexey);
             this.Controls.Add(this.buttonTest);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
 
