@@ -24,7 +24,7 @@ namespace GitHubTraining
 
         private void buttonAlexey_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Alexey button pressed");
+            MessageBox.Show("Changed Text Alexey button pressed");
         }
         private void buttonGintaras_Click(object sender, EventArgs e)
         {
